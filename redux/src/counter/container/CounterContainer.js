@@ -1,6 +1,5 @@
 import { ReduxCounter } from 'counter';
 import React, { useCallback } from 'react';
-import { Counter } from 'counter/index';
 import { useSelector, useDispatch } from 'react-redux';
 import { increase, decrease } from 'counter/reducer/Counter.reducer';
 
