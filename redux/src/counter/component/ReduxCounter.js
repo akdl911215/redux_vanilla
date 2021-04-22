@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 
 const ReduxCounter = React.memo(({ number, onIncrease, onDecrease }) => {
+    alert('number = ' + number);
+    // console.log('onIncrease = ' + onIncrease);
+    // console.log('onDecrease = ' + onDecrease);
     return (
         <>
             <h2 style={{ color: 'black' }}>리덕스 카운터</h2>
