@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo } from 'todos/reducer/todo.reducer';
 
-const AddTodo = () => {
+const AddTodo = ({ addTodo }) => {
     const [input, setInput] = useState('');
 
     const dispatch = useDispatch();
